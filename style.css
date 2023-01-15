@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300;700&family=Lato:wght@400;700&family=Oswald&family=Roboto+Condensed:wght@400;700&family=Sofia+Sans:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Chivo Mono', monospace;
+}
+
+body {
+    background-color: #F56EB3;
+}
+
+table {
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-right: 100px;
+}
+
+.right {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+table tr {
+    border: 1px solid black;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+.container {
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F56EB3;
+    background: -webkit-linear-gradient(to right, #6F1AB6, #302b63, #0f0c29);
+    background: linear-gradient(to right, #7B2869, #9D3C72, #C85C8E);
+    justify-content: space-between;
+}
+
+button {
+    border-radius: 10px;
+    border: 1px solid #F7971E;
+    color: black;
+    font-weight: bold;
+    padding: 7px;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #3A4F7A;
+    background: -webkit-linear-gradient(to right, #FAAB78, #3A4F7A);
+    background: linear-gradient(to right, #FEC868, #F7971E);
+    color: black;
+    border-radius: 10px;
+}
+
+table {
+    background: #f12711;
+    background: -webkit-linear-gradient(to right, #FF597B, #f12711);
+    background: linear-gradient(to right, #FFDDD2, #FAAB78);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+h1 {
+    text-align: center;
+    background-color: #1A0000;
+    border-radius: 20px;
+}
+
+.left td {
+    padding: 15px;
+}
